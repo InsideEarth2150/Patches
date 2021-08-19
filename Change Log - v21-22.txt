@@ -1,0 +1,174 @@
+   ----------------------------------------------------------------------------------
+   The Moon Project / Lost Souls V 2.2 Final Multiplayer Update
+   ----------------------------------------------------------------------------------
+   ----------------------------------------------------------------------------------
+   Developed by IEO - Inside Earth Operations
+   http://www.e2160.com // download by www.euo-clan.com
+   ----------------------------------------------------------------------------------
+   Installation & Important Infos
+   ----------------------------------------------------------------------------------
+   This Setup updates The Moon Project or Lost Souls to 2.2. 
+   The correct installation path of the game should be found automatically.
+   The Update was only tested with Multiplayer/Skirmsh. For Singleplayer
+   (Campains) its better you use only Patch 1.3 or 2.1.
+   All Bonus Specials will be installed in a new folder called "Bonus".
+   ----------------------------------------------------------------------------------
+   ----------------------------------------------------------------------------------
+   Changelist
+   ----------------------------------------------------------------------------------
+   LC - Lunar Corporation
+   ----------------------------------------------------------------------------------
+ - Moon III und Lunar III costs -50 CR (like 1.3)
+ - Crater is stronger vs ED Cannon
+ - All Buildings (some are seperately increased) dropspeed +11%
+ - Headbase, Xylit and Mine Upgrade dropspeed +22%
+ - Nests research costs -1000 CR
+ - Guardian und Defender dropspeed +100%
+ - Guardian -500 Hitpoints
+ - Anti-Air-Rocket shoots faster
+ - Light Rocketlauncher UPG2 (1.3 Bug) fixed, +5 sec. buildtime (=cheaper)
+ - AA Rocketlauncher for Lunar III and Crion available
+ - Heavy Rocketlauncher 1 makes a little more damage, Ammo new 50/60/70
+ - Crater costs -50 CR
+ - Crusher costs -250 CR, buildtime -10 sec
+ - Heavy electrocannon on buildings -50 CR
+ - Mine +500 CR
+ - Mine Upgrade Research -2000 CR
+ - Mine Upgrade +300 CR
+ - Phobos I +50 HP, costs +200 CR
+ - Phobos II costs +300 CR
+ - Detector II +100 CR
+ - New Hope -150 CR
+ - Xylit researchtime -3min, costs -6000 CR
+ - Solar + 25% armour
+ - Heavy sonic -5 sec buildtime, -200 CR
+ - Detector II+III sightrange reduced
+ - Laserwall +1000 HP
+ - Mainbase -1000 HP
+ - WCC + 2000 CR
+ - WCC Engery -25%
+ - Antirocket range -1
+ - Meteor MDW Shootpanel -1000 CR
+ - Meteors (MDW) reload time decreased
+ - Moon I max shield1, Moon II max shield2, Lunar III can carry shield2
+ - Fatgirl III -50 CR
+ - Researchbuilding +500 CR
+ - Meteor UPG1 Research -1min, UPG2 Research -2min
+ - Thunder UPG Research -1min
+ - Thunder 1 50% Armour
+ - Plasma costs +50 CR
+   ----------------------------------------------------------------------------------
+   ED - Eurasian Dynasty
+   ----------------------------------------------------------------------------------
+ - U-Boats balanced 
+ - Ships balanced
+ - Shipweapons balanced
+ - Heavy Laser, heavy Ion, mobile Artillery available for Ships
+ - Ural costs -100 CR
+ - Sibiria costs a little decreased, Hitpoints to 700/800/900 increased
+ - Sibiria can carry specials
+ - Don UPG2 can take AA
+ - PowerGenerator energy transmitting range +4
+ - Heavy Rocketlauncher -5 seconds buildtime
+ - Heavy Rocketlauncher more damage at beginning, Ammo new 50/60/70
+ - Heavy Ion reload time decreased
+ - Heavy cannon ammo makes more damage at beginning
+ - Heavy cannon research time +1min, singlecannon is later available
+ - Heavy doublecannon shootrange -1, ammo -40
+ - Mobile Radar sightrange increased, attention: Screamer upgrades decreases the sightrange!
+ - Repairer needs less time to upgrade an unit
+ - Repairer UPG repairs faster
+ - Artillery +500 HP
+ - Scout UPG research -1000 CR
+ - Scout costs +400 CR
+ - Scout II costs +900 CR
+ - Heavy Laser3 +100 CR
+ - Light Laser3 +50 CR
+ - Kozak/Ataman UPG2 researchtime -1
+ - Bomber Chassis UPG2 researchtime -1
+ - Bomber Bomb damage reduced
+ - Fakes need no research
+ - Fakes buildtime decreased
+ - Fakes are new on the right side of the buildmenue
+ - Mobile Artillery costs +100 CR
+ - Pillbox -500 Hitpoints
+   ----------------------------------------------------------------------------------
+   UCS - United Civilized States
+   ----------------------------------------------------------------------------------
+ - U-Boats balanced
+ - Shipts balanced
+ - Shipweapons balanced
+ - Scout II could carry specials - fixed
+ - Heavy bulding Plasma range +1
+ - Energy trasmitter +900 HP, range +4, costs +100 CR
+ - PowerGenerator +500 HP, Reactors +200 HP and +25% armour
+ - Mobile Radar sightrange increased
+ - Repairer upgrades Units faster
+ - Repairer UPG repairs faster
+ - Artillery +500 HP
+ - Scout UPG research -1000 CR
+ - Scout +400 CR
+ - Scout II +900 CR
+ - Heavy Rocketlauncher I is stronger
+ - Spider armour to 20/25/35% increased
+ - MDW launching pads needs less energy
+ - Antirocket range -1
+ - Cargo Salamander costs -300 CR
+ - Heavy Grenadelauncher range -1, damage a little decreased
+ - Heavy Cannon standard ammo damage a little increased
+ - Heavy Canon costs -50 CR
+ - Gargoil Plasmacannon II shootrate increased (=more damage)
+ - Gargoil UPG1/2 research time decreased
+ - Bomber Chassis UPG2 researchtime -1
+ - Cargo Salamander researchtime +2min
+ - Doublecannon on Buildings makes more damage
+ - Jaguar Research after Phanter II
+ - Heavy Plasmacannon on Weaponfacilites +100 CR
+ - Bomber Bomb damage reduced
+   ----------------------------------------------------------------------------------
+   Other changes
+   ----------------------------------------------------------------------------------
+ - Language File fixed
+ - New Editor Objects from OpX added
+ - 2 new multiplayer maps by Seek (( 6) ZZ // Zone Zero and ( 8) Heavy Metal)
+ - Walls can be destroyed by sonic
+ - MG shoots faster, damage increased
+ - Weapon Factory/Mainbuilding armour from 25% to 50% increased
+ - SDI costs +1000 CR
+ - SDI researchtime +1
+ - SDI can shoot only only on 3 missiles, reload time decreased
+ - Artillery is now a single research
+ - Artillery shootrange +1
+ - Banner costs +100 CR
+ - Antirocket costs +200 CR
+ - Antirocket researchtime increased
+ - Ammotransporter +600 HP, 33% armour, costs x 3, max. shield1
+ - Antirocket cant shoot on ED MDW
+ - Walls and Editor Objekts have more Hitpoints
+ - New no ending ressource Artefacts -->
+ - 7 Ressource Artefacts give the same money like 7 normal Ressource points
+ - Light Air Units are stronger/more expensive
+   ----------------------------------------------------------------------------------
+   ----------------------------------------------------------------------------------
+   Bonus Edition
+   ----------------------------------------------------------------------------------
+ - MOOS 2 by Mensi
+ - Mappack 1.0 by Seek
+ - Script/Temp Killer 1.1 by Benni
+ - New Interfaces 1.1 by Benni
+ - Earth Tuner 1.0 by Benni
+ - Moon Cursor for Windows by Benni
+   ----------------------------------------------------------------------------------
+   Copyright (c) 2005 by Inside Earth Operations / ZUXXEZ ENTERTAIMENT AG
+   ----------------------------------------------------------------------------------
+   ----------------------------------------------------------------------------------
+   Patch Team: Benni, Gnarf, Seek // Projectleader: Seek
+   Special thanks to all People who helped us testing
+   ----------------------------------------------------------------------------------
+   ----------------------------------------------------------------------------------
+   Contact / Bug Reporting
+   ----------------------------------------------------------------------------------
+   Internet: http://www.e2160.com or http://www.euo-clan.com
+   E-Mail: seek@gmx.ch (Seek)
+   ----------------------------------------------------------------------------------
+   Date: 3.12.2005

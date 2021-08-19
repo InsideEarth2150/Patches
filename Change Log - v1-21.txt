@@ -1,0 +1,271 @@
+----------------------------------------------------
+The Moon Project / Lost Souls 2.1 Multiplayer Update
+----------------------------------------------------
+
+Warning:
+
+- Updates the game from 1.x/2.0 to 2.1
+
+!!!WARNING:
+After the installation of the patch, old accounts (local) and save games of the versions 1.x can not be used anymore!
+
+Changes:
+
+- Multiplayer games between The Moon Project and Lost Souls are possible now!
+
+LC
+
+- Heavy Sonic on building +4 RL
+- Heavy Sonic build time decreased
+- Light Sonic RL +1, build time decreased
+- AA fits on Nester again instead of detector and regenerator
+- research time of Xylit decreased
+- research time of Mine Upgrade decreased, research costs 7000 CR
+- Light Electro +1 RL on building
+- Heavy Electro RL on building corrected
+- Defender and Nests need electricity
+- The upgraded Mine costs only 1600 CR/Unit
+- Crion +2 min research time, research costs +5000 CR
+- Crion build time decreased
+- Heavy Rocket launcher -1 RL on Units
+- Phobos III, +100 HP, 50 percent PZ, +200 CR
+- Weather Control Centre +15000 CR
+- Research costs WCC +5000 CR
+- NewHope -100 CR costs
+- Heavy Rocket launcher costs +200 CR, Rocket launcher 1 and 2 are stronger
+- Crusher build time 10 sec, costs 100 CR increased
+- Plasma Projector new values
+- Build time of Lunar, Moon and FG 5 seconds increased
+- Artillery costs from 3000 to 7000 CR decreased, shot costs from 1500 to 1500 CR decreased
+- SDI could only defence against 3 shots in a series, needs after this longer to reload
+- SDI build costs from 3000 to 8000 CR increased
+- SDI research time 1 minute increased
+- Heavy air rocket launcher -10 ammunition, less damage
+- Mercury +100HP and 25 percent armor, visual range -1, +400 CR
+- Antirocket ammunition x3 and improved, costs +100 CR
+- Detector Upgrade +1min research time
+- Nest build time -5 seconds
+- Guardian +500 HP, costs +200 CR
+- Defender +200 HP
+- Defender are able to carry one heavy and one light weapon instead off two light weapons
+- Solar PP +300 CR, Solarcell -20 CR
+- Mainbase -200 CR, -500 HP
+- Laser wall +500 HP
+- AA Rocket launcher +50 ammunition
+
+ED
+
+- Heavy Laser RL building +2, Unit +1, Light +2 auf Kauki /+1 building
+- Screamer III, less build time und costs
+- Screamer III higher visual range
+- Heavy Ion + 2 RL on Units and +3 on buildings
+- Caspian 100 CR cheaper
+- Stealth research time +2 min
+- Heavy Rocket launcher 1 and 2 are stronger
+- Heavy Rocket launcher +100 CR
+- Thor + 2 min research time
+- Mobile Artillery tone down
+- Mobile Artillery is a single research and placed after cannon, ammunition research already integrated.
+- Ural build time decreased
+- Mobile Radar +1 RL
+- Artillery costs from 3000 to 7000 CR decreased, shot costs from 1500 to 1500 CR decreased
+- SDI could only defence against 3 shots in a series, needs after this longer to reload
+- SDI build costs from 3000 to 8000 CR increased
+- SDI research time 1 minute increased
+- New research Scout Upgrade, +250 HP, 50 percent AM, higher visual range, regeneration, max shield
+- Repairer improved, research time +1 minute, costs increased
+- Heavy air rocket launcher -10 ammunition, less damage
+- Mini shield +20 HP
+- Minelayer UPG is more expensive, UPG could only carry two shields
+- Mercury +100HP and 25 percent armor, visual range -1, +400 CR
+- Antirocket ammunition x3 and improved, costs +100 CR
+- Screamer +1 min research time
+- Heavy Tower +50 CR, +300 HP, Pillbox build time decreased, costs +300 CR
+- AA building range +2
+- Light Tower -10 Seconds build time
+- Stationary Radar +1000 CR
+- RCC +10000 CR, build time +15 seconds, Silo -5000 CR
+- Build time ballistic Rocket launcher 50 Seconds decreased
+
+UCS
+
+- Stationary Radar +2 RL / mobile +1 RL, +100CR
+- Teleport costs + 2500 CR
+- Festung could carry 4 heavy weapons, more HP, higher costs.
+- Heavy canon damage increased
+- Heavy canon ammunition 60 increased 
+- Heavy Rocket launcher shot type and damage changed, a little weaker as in 2.0
+- Light Rocket launcher Phanter/Jaguar damage decreased
+- Light building canon RL +2
+- Harvester research time 1 min decreased
+- PCC research time + 2 min
+- AA Plasma is more efficient
+- Spider improved, costs +150CR, Spider 400HP, 10 percent AM, UPG1 500HP, 15 percent AM, UPG2 600HP, 20 percent AM
+- Salamander -100 HP
+- Artillery costs from 3000 to 7000 CR decreased, shot costs from 1500 to 1500 CR decreased
+- SDI could only defence against 3 shots in a series, needs after this longer to reload
+- SDI build costs from 3000 to 8000 CR increased
+- SDI research time 1 minute increased
+- New research scout Upgrade, +250 HP, 50 percent PZ, higher visual range, regeneration, max shield
+- Repairer improved, research time +1 minute, costs increased
+- Heavy AirRocketlauncher -10 ammunition, less damage
+- Mini Shield +20HP
+- Minelayer UPG is more expensive, UPG could only carry two shields
+- Mercury +100HP and 25 percent armor, visual range -1, +400 CR
+- Antirocket ammunition x3 and improved, costs +100 CR
+- Light building Plasma + 1 RL
+- Shadow generator I +1 min research time, Shadow generator II -1min research time, Shadow generator III -1min research time
+- Heavy Tower +50 CR, +300 HP
+- Stationary Radar -1000 CR
+- Light Tower -10 seconds build time
+- PCC +10000 CR, build time +15 seconds, Silo -5000 CR
+- Granatenwerfer +150 CR
+- Light building Plasma +1 RL
+- Light building Rocket launcher +1 RL
+
+Bugfixes:
+
+Both
+- BackToDesk Code in the EarthNet are fixed
+
+The Moon Project
+- ED Campaign Mission 4 are able now to finish
+
+
+------------------------------------------------------------------------------------------------------
+Erstellt durch IEO (Inside Earth Operations) in Co-Operation mit Reality Pump / ZUXXEZ ENTERTAIMENT AG
+------------------------------------------------------------------------------------------------------
+Projektleitung: Seek | Mehr Infos zu IEO findest du auf www.InsideEarth.de
+--------------------------------------------------------------------------
+Copyright (c) 2004 by ZUXXEZ ENTERTAIMENT AG
+--------------------------------------------
+
+
+Patch v.2.0
+This Patch includes the following changes:
+ED
+- Laser is stronger vs. buildings
+- Stealth-research takes longer to complete
+- Heavy Rockets do more damage and have more ammo (Aircrafts+Surface)
+- Heavy Rocket research time lowered
+- Minelayer can only carry shield 1
+- Mines do more damage
+- Rocket Control Center (MDW) recharges itself like Plasma MDW
+- Rocket Control Center (MDW) is more expensive
+- Rocket Control Center and it's silos have more armor and hitpoints
+- Bomber research takes longer
+- Pamir 3 can carry shieldgenerator 100
+- Scout added (is not able to reveal shadowed units!)
+- Stationary Artillery is more expensive and weaker
+- Stationary Artillery research placed behind defensive buildings
+- SDI building added, can defend against Plasma MDW
+- research building is a bit cheaper
+- Gruz digs slower
+- research of light air units takes longer
+- research of light Ion takes longer
+- Wolga got more hitpoints, but is now also more expensive
+- Mobile Artillery's fire speed lowered and is more expensive
+- Mobile Artillery's research time increased
+- Hitpoints of small towers increased
+- Buildings have less ammo
+- Weapon facilities have 25 Prozent armor
+- Repairer research time lowered (Building capture unit remains the same)
+- Earthquake generator building time lowered
+- Shield 1&2 costs adjusted
+LC
+- Heavy Rockets do more damage and have more ammo (Aircrafts+Surface)
+- Heavy Rocket research time lowered
+- Mining Upgrade added (earns 10 Prozent more)
+- Xylit is a single research
+- Xylit costs around 2500 CR lowered
+- Batteries costs 1000 CR
+- Weather Control Centre has armor and is cheaper
+- Solar drops 100 Prozent faster
+- Electrocannon UPG does more damage
+- Nests can use Detector and Regenerators
+- Only Lunar 3 can use Shieldgenerator
+- Lunar 3 can use Shieldgenerator 500
+- Lunar is a bit slower
+- Lunar, Moon and FG costs around 100 CR more
+- Plasma Projector as a research added
+- Crater has more hitpoints
+- Crusher has longer build time and costs more
+- Heavy Sonic has lower build time and costs more
+- Light Sonic has lower build time
+- New Hope as a new research behind Moon 3 added
+- FatGirl has a bit longer research time
+- Stationary Artillery is more expensive and weaker
+- Stationary Artillery reasearch placed behind defensive buildings
+- Guardian now costs 1000 CR
+- Defender has now 800 hitpoints and 75 Prozent armor
+- SDI is faster and can defend against Plasma MDW
+- SDI costs more
+- SDI has 25 Prozent armor
+- Phobos has more hitpoints
+- Phobos with uncover shadow feature must be researched
+- Solar and Xylit have limited Power range
+- research of light air units takes longer
+- Mobile Artillery is now a single research
+- Bomber research take longer
+- Hitpoints of Nests increased
+- Buildings have less ammo
+- Weaponfacilities have 25 Prozent armor
+- Regenerator research time lowered (Building capture unit remains the same)
+- Shield UPG: Regenerator II is added in research-three
+- Earthquake generator building time lowered
+- Shield 1&2 costs adjusted
+UCS
+- Radar Tower added (is included in the first Shadow research)
+- research of Radar is faster (Shadow research time remains the same)
+- Towers and Buildings can use light cannon
+- Heavy Cannon do more damage
+- Light Cannon has less ammo
+- Tiger 3 can use Shieldgenerator 100
+- Scout added (is not able to reveal shadowed units!)
+- Heavy Grenade shoots slower, has less range and costs more
+- Light Grenade shoots slower, does more damage and hits better
+- Light Grenade Cannon has more ammo
+- Minelayer can use only Shield 1
+- Mines do more damage
+- Heavy Rockets do more damage and have more ammo (Aircrafts+Surface)
+- Heavy Rocket research time lowered
+- Light Rockets of Panther/Jaguar are better
+- research Centers are cheaper
+- Plasma Control Center is more expensive and takes longer to research
+- Aircraft plasma takes longer to research and got a bit weaker
+- SDI is faster and can defend against Plasma MDW
+- SDI costs more
+- SDI has 25 Prozent armor
+- Stationary Artillery is more expensive and weaker
+- Stationary Artillery reasearch placed behind defensive buildings
+- Salamander has less hitpoints, costs more and can use Shield 1
+- AA Plasma has less research time
+- Harvester II costs more
+- Air Harvester III research behind behind Harvester II
+- Bomber research takes longer
+- Hitpoints of small towers increased
+- Buildings have less ammo
+- Weaponfacilities have 25 Prozent armor
+- Repairer research time lowered (Building capture unit remains the same)
+- Earthquake generator building time lowered
+- Shield 1&2 costs adjusted
+
+Patch v.1.3
+This Patch includes the following changes:
+- The LC cheating procedure bug has been fixed
+- Unit transporters could land with a transported unit. This bug has been fixed.
+- There were some unnecessary research done at the start of the LC campaign. This has been removed.
+- The LC base had some unnecessary structures. They have been removed.
+- The behavior of Assault units in the UCS campaign has been fixed.
+
+Patch v.1.2
+This patch includes the following changes:
+- Structures sometimes worked without power. This has been fixed.
+- The LC drop time no longer depends on the terrain height.
+- EarthNet: Results are now sent after 5 minutes.
+- EarthNet: Choosing Game End from the menu is now considered a Defeat if done 5 minutes or longer after the game start.
+- EarthNet: Team games against AI are not rated now (at least 1 human player must be defeated to gain victory points).
+- We have added a "Hold fire"/"Fire at will" button to the Artillery building.
+- Fixed a bug in turning Power Plants on/off.
+- Plasma Bombs sometimes bombed the LC power plant and other large structures. This has been fixed.
+- The game balancing has been modified and improved.
