@@ -1,0 +1,25 @@
+- English <>
+  - CRC32: 
+  - MD5: 
+  - SHA-1: 
+  - VirusTotal <>
+- German <>
+  - CRC32: 
+  - MD5: 
+  - SHA-1: 
+  - VirusTotal <>
+- Polish <>
+  - CRC32: 
+  - MD5: 
+  - SHA-1: 
+  - VirusTotal <>
+- Russian <>
+  - CRC32: 
+  - MD5: 
+  - SHA-1: 
+  - VirusTotal <>
+- French <>
+  - CRC32: 
+  - MD5: 
+  - SHA-1: 
+  - VirusTotal <>
