@@ -21,7 +21,7 @@
   - SHA-1: 
   - VirusTotal <>
 ## French > <>
-  - CRC32: 
-  - MD5: 
-  - SHA-1: 
-  - VirusTotal <>
+  - CRC32: 7A4B47E5
+  - MD5: FC5A50C20550B51BDEB2EC806A6F6CEA
+  - SHA-1: 241430FFFBF215EEE47C767344A4E2BA9711A5A1
+  - VirusTotal <https://www.virustotal.com/gui/file/2adc0a115c843810b86342ac35afb60ef5bc540eecd74b11d4eaba1d710a2fc0>
