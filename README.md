@@ -22,7 +22,7 @@ Version:  2.2.1
 - German <https://git.io/Jukif>
 - Polish <https://git.io/JukiU>
 - Russian - pending 
-- French - pending 
+- French - <https://git.io/JuAzs>
 
 ```diff
 -Lost Souls
@@ -37,6 +37,4 @@ Version:  2.2.1
 - German <https://git.io/Jukiq>
 - Polish <https://git.io/JukiO>
 - Russian - pending 
-- French - <https://git.io/JuAzs>
-
-
+- French - <https://git.io/JuAzL>
