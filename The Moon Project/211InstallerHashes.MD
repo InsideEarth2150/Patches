@@ -20,7 +20,7 @@
   - MD5: 
   - SHA-1: 
   - VirusTotal <>
-## French > <>
+## French > <https://git.io/JuAzs>
   - CRC32: 5DB7CF7D
   - MD5: E3EC662010B1A79A8F87646BA21CCD34
   - SHA-1: A080373108490C677E530D6D345EE6C7F63E5C6D
