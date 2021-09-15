@@ -37,6 +37,6 @@ Version:  2.2.1
 - German <https://git.io/Jukiq>
 - Polish <https://git.io/JukiO>
 - Russian - pending 
-- French - pending 
+- French - <https://git.io/JuAzs>
 
 
