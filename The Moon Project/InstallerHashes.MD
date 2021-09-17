@@ -23,10 +23,10 @@
   - SHA-1: 6337B65216AC5BD9DE338462B7C56E9BF3D46E8E
   - VirusTotal <https://www.virustotal.com/gui/file-analysis/Mjg1NzNjZThjMTk5MDNhMGY5NjcwNjI3ZmVhNzIyNzg6MTYzMDc4OTM2Nw==/detection>
 ## Russian > <>
-  - CRC32: 
-  - MD5: 
-  - SHA-1: 
-  - VirusTotal <>
+  - CRC32: 05B94AEC
+  - MD5: B264F09B0DEA3477293AA89B2B13F853
+  - SHA-1: 9EA0AD626704360DDFC1AB34E6425EA74ACC427D
+  - VirusTotal <https://www.virustotal.com/gui/file-analysis/YjI2NGYwOWIwZGVhMzQ3NzI5M2FhODliMmIxM2Y4NTM6MTYzMTg5MDI1Mw==>
 ## French > <https://git.io/JuAzs>
   - CRC32: 60B49D2C
   - MD5: E327375D2AC7BAAA83FC59E25CF82F3D
