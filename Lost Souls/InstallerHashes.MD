@@ -1,3 +1,10 @@
+# 2.1.1 Installer Hashes & AntiVirus Scans
+## Multilanguage <https://git.io/J0HOT>
+  - CRC32: DB03B435
+  - MD5: 42D9A371F98D7F2CAF441F580965E029
+  - SHA-1: 5F6DEC6483EBD57F644AEA15F88BCB6FB3C531FA
+  - VirusTotal <https://www.virustotal.com/gui/file/29fc104d723beee30b29917cd51525902759d4aa7ba8274f933c3d85f26bce4d>
+
 # 2.2.1 Installer Hashes & AntiVirus Scans 
 
 ## English > <https://git.io/JukiL>

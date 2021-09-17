@@ -1,3 +1,10 @@
+# 2.1.1 Installer Hashes & AntiVirus Scans
+## Multilanguage <https://git.io/J0HYO>
+  - CRC32: 6F6D2B76
+  - MD5: B077C00F0248551C4C717C4EA622C981
+  - SHA-1: 5D5ECBB9A98690276D731C997B97FEAE6656C70D
+  - VirusTotal <https://www.virustotal.com/gui/file-analysis/YjA3N2MwMGYwMjQ4NTUxYzRjNzE3YzRlYTYyMmM5ODE6MTYzMTg4NzU3MA==/detection>
+
 # 2.2.1 Installer Hashes & AntiVirus Scans 
 
 ## English > <https://git.io/Juk6j>
