@@ -5,6 +5,8 @@
   - SHA-1: 5D5ECBB9A98690276D731C997B97FEAE6656C70D
   - VirusTotal <https://www.virustotal.com/gui/file-analysis/YjA3N2MwMGYwMjQ4NTUxYzRjNzE3YzRlYTYyMmM5ODE6MTYzMTg4NzU3MA==/detection>
 
+
+
 # 2.2.1 Installer Hashes & AntiVirus Scans 
 
 ## English > <https://git.io/Juk6j>
@@ -22,7 +24,7 @@
   - MD5: 28573CE8C19903A0F9670627FEA72278
   - SHA-1: 6337B65216AC5BD9DE338462B7C56E9BF3D46E8E
   - VirusTotal <https://www.virustotal.com/gui/file-analysis/Mjg1NzNjZThjMTk5MDNhMGY5NjcwNjI3ZmVhNzIyNzg6MTYzMDc4OTM2Nw==/detection>
-## Russian > <>
+## Russian > <https://git.io/JzT38>
   - CRC32: 05B94AEC
   - MD5: B264F09B0DEA3477293AA89B2B13F853
   - SHA-1: 9EA0AD626704360DDFC1AB34E6425EA74ACC427D
