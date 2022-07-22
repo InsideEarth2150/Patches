@@ -17,12 +17,12 @@ Version:  2.1.1
 - Multilanguage: <https://git.io/J0HYO>
 
 ***Multiplayer***
-Version:  2.2.1
-- English <https://git.io/Juk6j>
-- German <https://git.io/Jukif>
-- Polish <https://git.io/JukiU>
-- Russian - pending 
-- French - <https://git.io/JuAzs>
+Version:  2.2.1 v2
+- English <https://tinyurl.com/4xkxhhnk>
+- German <https://tinyurl.com/2p8dzj2m>
+- Polish <https://tinyurl.com/39bev9td>
+- Russian <https://tinyurl.com/4pzzwzjk>
+- French <https://tinyurl.com/mvxn5s26>
 
 ```diff
 -Lost Souls
@@ -32,9 +32,9 @@ Version:  2.1.1
 - Multilanguage: <https://git.io/J0HOT>
 
 ***Multiplayer***
-Version:  2.2.1
-- English <https://git.io/JukHu>
-- German <https://git.io/Jukiq>
-- Polish <https://git.io/JukiO>
-- Russian - pending 
-- French - <https://git.io/JuAzL>
+Version:  2.2.1 v2
+- English <https://tinyurl.com/2p96mjh6>
+- German <https://tinyurl.com/yc54je4n>
+- Polish <https://tinyurl.com/4dzce8zt>
+- Russian <https://tinyurl.com/5uuuu2cy>
+- French <https://tinyurl.com/2cw7wr9w>
