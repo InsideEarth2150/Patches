@@ -1,0 +1,150 @@
+   ----------------------------------------------------------------------------------
+   Earth 2150: The Moon Project & Lost Souls v2.2.1 [IEO] Multiplayer Update
+   ----------------------------------------------------------------------------------
+   ----------------------------------------------------------------------------------
+   Developed by [IEO] - InsideEARTH Operations
+   http://www.insideearth.info
+   Git: https://github.com/InsideEarth2150/IEO-Updates/projects/1
+   ----------------------------------------------------------------------------------
+   Important Information
+   ----------------------------------------------------------------------------------
+   This Setup updates The Moon Project to v2.2.1
+   The Update was only tested with Multiplayer/Skirmish.
+   For Singleplayer (Campaigns) its better you use only Patch 1.3 or 2.1.1
+   ----------------------------------------------------------------------------------
+   ----------------------------------------------------------------------------------
+   WARNING
+   ----------------------------------------------------------------------------------
+   - Incorrect installation can result in abnormal behaviour such as game crashing.
+   - This update can be applied to the following versions 2.1.0.1, 2.1.9.9 & 2.2
+   - This update replaces and remove previous updates (2.1 & 2.2).
+   ----------------------------------------------------------------------------------
+   Installation
+   ----------------------------------------------------------------------------------
+   - Ensure The Moon Project is already patched to version 2.1.0.1, 2.1.9.9 or 2.2.
+   - Backup any existing installation of EarthTMPExtentions.
+   - Backup any remove any existing installation of Mixsets.
+   - Backup any existing installation of Autoexec.con.
+   - The Installation "should" automatically detect the correct game installation location
+   - If it doesn't, ensure you are installing the patch into the correct Game location as defined in (HKLM\SOFTWARE\WOW6432Node\Topware\TheMoonProject\BaseGame\FileSystem "OutputDir")
+   - Following the update installation, run the script in the game root called "Finish Update.cmd"
+   - Ensure in-game main menu shows v2.2.1
+   ----------------------------------------------------------------------------------
+   Change list
+   ----------------------------------------------------------------------------------
+   ----------------------------------------------------------------------------------
+   Executable - Credit - Guardian
+   ----------------------------------------------------------------------------------
+   - Hardcoded into EXE:
+   -- A New IEOModuleLoader.dll loader as a replacement for dsound.dll asi loader.
+   -- All IEO Modules are now placed in the Modules Folder
+   -- GUID changed
+   ----------------------------------------------------------------------------------
+   Registry
+   ----------------------------------------------------------------------------------
+   - Added EarthNet.reg file to Game root
+   ----------------------------------------------------------------------------------
+   Enhancements - Credit - Animal
+   ----------------------------------------------------------------------------------
+   - Autoexec.con
+   ----------------------------------------------------------------------------------
+   Modules - Credit - Guardian
+   ----------------------------------------------------------------------------------
+   - EarthFixes.ieo
+   -- F1 Fix for resolutions runing a 16:9 aspect ratio
+   -- Titlebar
+   -- Validation of saved Unit templates
+   -- Fixed Mouse Movement
+   - EarthTmpExtensions.ieo
+   - Earth 2150: TMP Extensions v1.0.21: Credit - Guardian - (Download Separately - https://wiki.insideearth.info/wiki/E2150_-_Applications)
+   -- Increased Zoom
+   -- Improved Viewing Angles
+   -- Reduced Cursor Size
+   -- Changed Default FPS value from 20 to 60.
+   -- Significant FPS improvement due to rendering optimisations (only Direct3D - D3D)
+   -- Smooth camera zooming
+   -- Large resolutions adjustments - Smaller side panel and compass 
+   ----------------------------------------------------------------------------------
+   Fixed Scripts - Credit - Kumu
+   ----------------------------------------------------------------------------------
+   - Platoons:
+   -- Implemented auto disbanding when creating a new platoon (to mitigate: mix platoon speed, screamer bugs)
+   -- Set as Default Script
+   - Aircraft (Advanced):
+   -- Aircraft and Bombers will attack enemy units and drop bombs during MOVE command.
+   -- Aircraft will continuously acquire and or drop targets depending on the weapon, speed and direction of flight.
+   -- Aircraft and Bombers are defaulted to CHASE NO LIMIT. Other options are HOLD POSITION and "CHASE <=10" spaces from their destination point so as not to be led into an ambush.
+   -- New Stack Management option for controlling how many layers of aircraft are stacked when using moving commands.
+   -- Aircraft can be given MOVE orders when going to RELOAD to avoid hazards.
+   - Civil Unit:
+   -- Fixed the lights hotkey not working.
+   -- Set as Default Script
+   ----------------------------------------------------------------------------------
+   Balancing Changes: Credit - Animal
+   ----------------------------------------------------------------------------------
+   ----------------------------------------------------------------------------------
+   LC - Lunar Corporation
+   ----------------------------------------------------------------------------------
+   - N/A
+   ----------------------------------------------------------------------------------
+   ED - Eurasian Dynasty
+   ----------------------------------------------------------------------------------
+   - Research Tree has been update to show the below, there is no cost or time impact, you simply need to select them now to research them instead of them being hidden within other tech research.
+   -- ED Missile Control Centre.
+   - SDI Defence Building now fires.
+   - Orca now launch Nukes.
+   ----------------------------------------------------------------------------------
+   UCS - United Civilized States
+   ----------------------------------------------------------------------------------
+   - Research Tree has been updated to show the below, there is no cost or time impact, you simply need to select them now to research them instead of them being hidden within other tech research.
+   -- UCS Radar
+   - SDI Defence Building now fires.
+   - Kiev now launches Nukes.
+   ----------------------------------------------------------------------------------
+   All Races
+   ----------------------------------------------------------------------------------
+   - Platoons have been disabled to mitigate the mixed units and screamer bugs: Credit - Kumu
+   ----------------------------------------------------------------------------------
+   New GameType - (Set as Default)
+   ----------------------------------------------------------------------------------
+   - IEO - Destroy Enemy Structures: Credit - Animal (Surrim)
+   -- Timer (In-game Time)
+   -- Auto-Ally after 12 seconds (teams by distance, request in a team by random, only watchers or ai will be asked, also possible: 2v3, 1v1v1 or 1v14)
+   -- Explored map for watchers
+   -- XL mode (more resources)
+   -- Endless resources mode (disables also trenching and walls)
+   -- Uncle Sam mode (15,000-40,000 CR/min)
+   -- Techwar money mode (1,000,000,000 CR)
+   -- 1x-8x research speed, Turbo mode (endless speed) and TechWar mode
+   -- Playable with default map units and buildings
+   -- Restrictable to small units or no air
+   -- Many smaller optimisations
+   ----------------------------------------------------------------------------------
+   Map Editor
+   ----------------------------------------------------------------------------------
+   - Added
+   -- ED
+   --- SDI Defence Building
+   -- UCS
+   --- N/A
+   -- LC
+   --- Meteor Launchers
+   ----------------------------------------------------------------------------------
+   Translations
+   ----------------------------------------------------------------------------------
+   -- Britney (German)
+   -- Koniecpolski (Polish)
+   -- Alyssa 2chvskaya (Russian)
+   ----------------------------------------------------------------------------------
+   Copyright (c) 2019 by InsideEARTH Operations
+   ----------------------------------------------------------------------------------
+   ----------------------------------------------------------------------------------
+   Patch Team: Animal, Guardian, Kumu // Project leader: Animal
+   Special thanks Surrim for the GameType code and to all People who helped us testing (see in-game credits)
+   ----------------------------------------------------------------------------------
+   ----------------------------------------------------------------------------------
+   Contact / Bug Reporting
+   ----------------------------------------------------------------------------------
+   Discord: https://discord.gg/yxtzdUZ
+   ----------------------------------------------------------------------------------
+   Date: 3.21.2021
