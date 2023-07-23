@@ -1,1 +1,11 @@
-https://raw.githubusercontent.com/InsideEarth2150/Patches/main/The%20Moon%20Project/Extracted/2.2.1.1/autoexec.con
+<urls>
+    <url>https://raw.githubusercontent.com/InsideEarth2150/Patches/main/The%20Moon%20Project/Extracted/2.2.1.1/autoexec.con</url>
+    <url>https://raw.githubusercontent.com/InsideEarth2150/Patches/main/The%20Moon%20Project/Extracted/2.2.1.1/TheMoonProject.exe</url>
+    <url>https://raw.githubusercontent.com/InsideEarth2150/Patches/main/The%20Moon%20Project/Extracted/2.2.1.1/IeoModuleLoader.dll</url>
+    <url>https://raw.githubusercontent.com/InsideEarth2150/Patches/main/The%20Moon%20Project/Extracted/2.2.1.1/ChangeLog-v221-en.txt</url>
+    <url>https://raw.githubusercontent.com/InsideEarth2150/Patches/main/The%20Moon%20Project/Extracted/2.2.1.1/Modules/EarthFixes.ieo</url>
+    <url>https://raw.githubusercontent.com/InsideEarth2150/Patches/main/The%20Moon%20Project/Extracted/2.2.1.1/Modules/EarthTmpExtensions.ieo</url>
+    <url>https://raw.githubusercontent.com/InsideEarth2150/Patches/main/The%20Moon%20Project/Extracted/2.2.1.1/WDFiles/Language221TMPen.wd</url>
+    <url>https://raw.githubusercontent.com/InsideEarth2150/Patches/main/The%20Moon%20Project/Extracted/2.2.1.1/WDFiles/Update001.wd</url>
+    <url>https://raw.githubusercontent.com/InsideEarth2150/Patches/main/The%20Moon%20Project/Extracted/2.2.1.1/WDFiles/Update001.wd</url>
+</urls>
