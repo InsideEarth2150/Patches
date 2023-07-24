@@ -1,0 +1,72 @@
+   ----------------------------------------------------------------------------------
+   Earth 2150: Lost Souls v2.1.1 [IEO] Update
+   ----------------------------------------------------------------------------------
+   ----------------------------------------------------------------------------------
+   Developed by [IEO] - InsideEARTH Operations
+   http://www.insideearth.info
+   ----------------------------------------------------------------------------------
+   Important Information
+   ----------------------------------------------------------------------------------
+   This Setup updates Lost Souls to v2.1.1.0
+   ----------------------------------------------------------------------------------
+   ----------------------------------------------------------------------------------
+   WARNING
+   ----------------------------------------------------------------------------------
+   - Incorrect installation can result in abnormal behaviour such as game crashing.
+   - This update can be applied to the following versions 2.1.0.1
+   ----------------------------------------------------------------------------------
+   Installation
+   ----------------------------------------------------------------------------------
+   - Ensure The Moon Project is already patched to version 2.1.0.1.
+   - The Installation "should" automatically detect the correct game installation location
+   - If it doesn't, ensure you are installing the patch into the correct Game location as defined in (HKLM\SOFTWARE\WOW6432Node\Reality Pump\LostSouls\BaseGame\FileSystem "OutputDir")
+   - Ensure in-game main menu shows v2.1.1
+   ----------------------------------------------------------------------------------
+   Change list
+   ----------------------------------------------------------------------------------
+   ----------------------------------------------------------------------------------
+   Executable - Credit - Guardian
+   ----------------------------------------------------------------------------------
+   - Hardcoded into EXE:
+   -- A New IEOModuleLoader.dll loader as a replacement for dsound.dll asi loader.
+   -- All IEO Modules are now placed in the Modules Folder
+   ----------------------------------------------------------------------------------
+   Registry
+   ----------------------------------------------------------------------------------
+   - Added EarthNet.reg file to Game root
+   ----------------------------------------------------------------------------------
+   Enhancements - Credit - Animal
+   ----------------------------------------------------------------------------------
+   - Autoexec.con
+   -- Increased Zoom
+   -- Improved Viewing Angles
+   -- Reduced Cursor Size
+   ----------------------------------------------------------------------------------
+   Modules - Credit - Guardian
+   ----------------------------------------------------------------------------------
+   - EarthFixes.ieo
+   -- F1 Fix for resolutions runing a 16:9 aspect ratio
+   -- Titlebar
+   -- Validation of saved Unit templates
+   -- Fixed Mouse Movement
+   -- Fixed game crashing at large zoomouts
+   - EarthTmpExtensions.ieo
+   - Earth 2150: TMP Extensions v1.0.13: Credit - Guardian - (Download Separately - https://wiki.insideearth.info/wiki/E2150_-_Applications)
+   -- Changed Default FPS value from 20 to 60.
+   -- Significant FPS improvement due to rendering optimisations (only Direct3D - D3D)
+   -- Smooth camera zooming
+   -- Large resolutions adjustments - Smaller side panel and compass 
+   -- Game options enhancements (larger range of map scroll speed slider, and camera zoom slider)
+   ----------------------------------------------------------------------------------
+   Copyright (c) 2019 by InsideEARTH Operations
+   ----------------------------------------------------------------------------------
+   ----------------------------------------------------------------------------------
+   Patch Team: Animal, Guardian
+   Special thanks to all People who helped us testing (see in-game credits)
+   ----------------------------------------------------------------------------------
+   ----------------------------------------------------------------------------------
+   Contact / Bug Reporting
+   ----------------------------------------------------------------------------------
+   Discord: https://discord.gg/yxtzdUZ
+   ----------------------------------------------------------------------------------
+   Date: 3.21.2021
