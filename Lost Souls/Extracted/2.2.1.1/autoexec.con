@@ -1,0 +1,9 @@
+graph.zoom.max=150.0
+graph.zoom.min=0.0
+graph.viewangle.min=0.0
+graph.viewangle.max=1.35
+graph.cursor.size=30
+graph.limited.view=1
+graphrate=60
+display.show=0
+console.help
