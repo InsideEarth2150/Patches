@@ -1,0 +1,88 @@
+"Advanced Battle Unit [Kumu] v324"
+2023-03-18
+
+Pertains to file sfu324.ecoMP
+
+Overview:
+  This script can be used for both land and water units.
+  The code actively manages ALL the unit's weapons and targeting individually
+  It does not rely on the in-game coded "autocannon" which may introduce errors with units having multiple cannons.
+  Therefore, depending on the situation it is possible that heavy unit might have all 3-4 weapons firing at different targets at the same time
+  It is beta version and is provided for review and testing. Use at your own risk.
+
+Important Note: 
+  This is a complex advanced script to be used by experienced players. 
+  Due to the differences in standard unit scripts and interface buttons, I recommend all selected battle units wear the same script to avoid button interface confusion.
+  If button confusion happens it can be resolved by the Hot key Left ALT S 'change script' and chosing the same or different script for the group.
+  Interface button confusion for units wearing this script can be reset back to default with the RESET button.
+
+Interface has 4 main buttons/options that determine the unit's behavior
+
+1)MovementMode:
+  Chase Enemy: DEFAULT
+  Hold Position:
+  Hold Area: units are tethered to their home position by 8 spaces. 
+      The home position is set by a STOP command or a MOVE command when a unit comes to rest 
+
+2)RangeMode:
+  Normal: DEFAULT, unit moves to target, similar to the in-game 'Battle Unit' and "Advanced Battle Unit' scripts 
+  Max Range: a Unit currently not in range will move into a position so that maximum range cannon(s) are in range
+  Note: if a target is already in range the unit will NOT move farther away to get to Max Range  
+  All Range: a Unit currently not in range will move into a position so that all cannons are in range
+
+3)TargetingMode:
+  Nearest: DEFAULT
+  Weakest: determined by HP
+  Sickest: determined by %loss of HP
+  Strongest: determined by HP
+  HYBRID N/S: targeting mixture of 80% Nearest and 20% Weakest
+  Note NEW Feature: Units not on 'Nearest' will only search for targets within the cannon's range, this prevents the unit from moving out of position to get in range for a distant target
+  
+4)AttackBehavior:
+  Attack-Move: DEFAULT, game standard behavior, all selected units will move to attempt shot on target
+  Attack-Hold: Only those units in range will shoot at the target, those units not in range will not move
+                and will search for alternative targets (recommended setting for focused fire technique as well as artillary units)
+
+Other button options:
+==========	
+ Kill Ruins: DEFAULT OFF;  Kill Ruins ON will include ruins in the targeting array but not exclusively
+ Kill Walls: DEFAULT OFF;  Kill Walls ON will include walls in the targeting array but not exclusively
+ 
+==========
+ Note NEW targetting features:
+ Buildings: DEFAULT ON,
+ Buildings: OFF  unit will not target buildings unless given ATTACK order(+) cursor 
+ Units: DEFAULT ON
+ Units: OFF   unit will not target units unless given ATTACK order(+) cursor
+ 
+==========
+ Special Lights: not a toggle, click to have lights OFF at rest or <10 spaces of destination, lights ON if move >=20 spaces
+   The Lights toggle button in the first column remains intact but will show Lights SPCL is selected
+ 
+==========
+EarthQ Button: button is only visible if the unit has an earthquake generator
+  EarthQ OFF: DEFAULT
+  EarthQ ON: The earthquake generators continuously fire (no longer have to click the ground)
+  Note: the EarthQ ON setting will override the Buildings OFF setting
+  
+========== 			
+FRONTLINE formation:
+  Purpose: to align a group of units along an offensive/defensive line and have them face all in one direction
+  
+  How to give the order:
+  Select a group of units, hit FRONTLINE button and draw the line on the ground with cursor to have the units move and line up in HOLDPOSITION
+  Note NEW feature; Units given this command will move to the Frontline much faster than previous version before they start assembling in line (Brit's request)
+  Units will move one step at a time when they are within 5 squares of the line
+  Units that are in FRONTLINE mode maybe advanced forward by drawing a new line or;
+  If the user desires the selected frontline group to move only one square forward hit the FRONTLINE button and double click the ground (anywhere)
+  
+==========		
+STOP button: Hidden, use the hotkey "S"
+  Selected units will stop and clear all their targets and acquire new targets. No interface settings are changed.
+  
+==========
+RESET Button: Hover over to view the current version of the script. Click to clear all current targets and reset all values/buttons to default settings.
+ 
+-------
+I would appreciate any comments.
+Discord or Kumu222@hotmail.com
