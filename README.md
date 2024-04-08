@@ -6,8 +6,8 @@
 "Escape from the Blue Planet"
 ```
 ***Single Player & Multiplayer***
-Version:  2.8.7.1 (*Default Version with Steam or Gog Instalation Media*)
-- Manual Download: <https://git.io/J0H4f>
+Version:  2.9.0.0
+- Manual Download: <(https://tinyurl.com/E2150-EftBP-2900>
 
 ```ini
 [The Moon Project]
