@@ -20,6 +20,7 @@ The patch includes a light version of EarthExtensions module for TMP/LS, that co
       - Text input issues under Win11
       - Game running incredibly too fast on CPUs with base clock >= 4.3GHz
       - Render overflow crash that happens at larger zoom
+      - Game crashing due to DEP settings in Windows
    - Implemented features:
       - widescreen panels size adjustments (bottom and side panels width)
       - desired FPS setting
