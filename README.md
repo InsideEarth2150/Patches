@@ -13,8 +13,9 @@ Version:  2.9.0.0
 [The Moon Project]
 ```
 ***Single Player***
-Version:  2.1.1
-- Multilanguage: <https://git.io/J0HYO>
+Version:  2.1.1.1
+- Multilanguage: <https://tinyurl.com/e2150tmp2111>
+- Manual multilanguage installation (Linux) <https://tinyurl.com/e2150tmp2111man>
 
 ***Multiplayer***
 Version:  2.2.1.3
@@ -29,8 +30,9 @@ Version:  2.2.1.3
 -Lost Souls
 ```
 ***Single Player***
-Version:  2.1.1
-- Multilanguage: <https://git.io/J0HOT>
+Version:  2.1.1.1
+- Multilanguage: <https://tinyurl.com/e2150ls2111>
+- Manual multilanguage installation (Linux) <https://tinyurl.com/e2150ls2111man>
 
 ***Multiplayer***
 Version:  2.2.1.3
