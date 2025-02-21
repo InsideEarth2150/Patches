@@ -12,33 +12,12 @@ Version:  2.9.0.0
 ```ini
 [The Moon Project]
 ```
-***Single Player***
-Version:  2.1.1.1
-- Multilanguage: <https://tinyurl.com/e2150tmp2111>
-- Manual multilanguage installation (Linux) <https://tinyurl.com/e2150tmp2111man>
-
-***Multiplayer***
-Version:  2.2.1.3
-- English <https://tinyurl.com/e2150tmp2213en>
-- German <https://tinyurl.com/e2150tmp2213de>
-- Polish <https://tinyurl.com/e2150tmp2213pl>
-- Russian <https://tinyurl.com/e2150tmp2213ru>
-- French <https://tinyurl.com/e2150tmp2213fr>
-- Manual multilanguage installation (Linux) <https://tinyurl.com/e2150tmp2213man>
-
+***Single Player 2.1.2.0 & Multiplayer 2.2.2.0***
+- Multilanguage: <https://tinyurl.com/e2150tmp2120-2220>
+- Manual multilanguage installation (Linux) <https://tinyurl.com/e2150tmp-man>
 ```diff
 -Lost Souls
 ```
-***Single Player***
-Version:  2.1.1.1
-- Multilanguage: <https://tinyurl.com/e2150ls2111>
-- Manual multilanguage installation (Linux) <https://tinyurl.com/e2150ls2111man>
-
-***Multiplayer***
-Version:  2.2.1.3
-- English <https://tinyurl.com/e2150ls2213en>
-- German <https://tinyurl.com/e2150ls2213de>
-- Polish <https://tinyurl.com/e2150ls2213pl>
-- Russian <https://tinyurl.com/e2150ls2213ru>
-- French <https://tinyurl.com/e2150ls2213fr>
-- Manual multilanguage installation (Linux) <https://tinyurl.com/e2150ls2213man>
+***Single Player 2.1.2.0 & Multiplayer 2.2.2.0***
+- Multilanguage: <https://tinyurl.com/e2150ls2120-2220>
+- Manual multilanguage installation (Linux) <https://tinyurl.com/e2150ls-man>
