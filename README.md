@@ -12,12 +12,12 @@ Version:  2.9.0.0
 ```ini
 [The Moon Project]
 ```
-***Single Player 2.1.2.0 & Multiplayer 2.2.2.0***
-- Multilanguage: <https://tinyurl.com/e2150tmp2120-2220>
+***Single Player 2.1.2.1 & Multiplayer 2.2.2.1***
+- Multilanguage: <https://tinyurl.com/e2150tmp2121-2221>
 - Manual multilanguage installation (Linux) <https://tinyurl.com/e2150tmp-man>
 ```diff
 -Lost Souls
 ```
-***Single Player 2.1.2.0 & Multiplayer 2.2.2.0***
-- Multilanguage: <https://tinyurl.com/e2150ls2120-2220>
+***Single Player 2.1.2.1 & Multiplayer 2.2.2.1***
+- Multilanguage: <https://tinyurl.com/e2150ls2121-2221>
 - Manual multilanguage installation (Linux) <https://tinyurl.com/e2150ls-man>
