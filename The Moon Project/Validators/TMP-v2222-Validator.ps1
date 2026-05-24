@@ -16,7 +16,7 @@ $updatePattern = "Update$Version.wd"
 # Core files required (excluding the language/update files handled by variables)
 $requiredWDFiles = @("Interface.wd", "InterfaceEx.wd", "Language.wd", "Levels.wd", "Meshes.wd", "Parameters.wd", "Players.wd", "Scripts.wd", "Sounds.wd", "Terrains.wd", "TerrainsEx.wd", "Textures.wd", "Update001.wd", "Wave22kH.wd")
 $requiredFolders = @("Modules", "Music", "Players", "Video", "WDFiles")
-$unwantedFolders = @("Interface", "Language", "Meshes", "Parameters", "Scripts", "Textures", "CustomWDFiles")
+$unwantedFolders = @("Interface", "Language", "Meshes", "Parameters", "Scripts", "Textures")
 
 # Window Title
 $host.UI.RawUI.WindowTitle = "$Title"
