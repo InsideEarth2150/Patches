@@ -117,8 +117,8 @@ Write-Host "`n[5] Executable Validation:" -ForegroundColor Yellow
 $exePath = Join-Path $targetDir $exeName
 Write-Status "Version: $((Get-Item $exePath).VersionInfo.FileVersion)" White
 $hash = (Get-FileHash -Path $exePath -Algorithm SHA256).Hash
-if ($hash -eq $expectedHash) { Write-Status "Status:  VERIFIED" Green }
-else { Write-Status "Status:  INVALID" Red }
+if ($hash -eq $expectedHash) { Write-Status "Hash:  VERIFIED" Green }
+else { Write-Status "Hash:  INVALID" Red }
  
 Write-Host "`n=======================================================" -ForegroundColor Cyan
 Read-Host "Press Enter to exit"
