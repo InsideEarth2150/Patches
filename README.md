@@ -12,29 +12,12 @@ Version:  2.9.0.0
 ```ini
 [The Moon Project]
 ```
-***Single Player***
-Version:  2.1.1
-- Multilanguage: <https://git.io/J0HYO>
-
-***Multiplayer***
-Version:  2.2.1 v2
-- English <https://tinyurl.com/4xkxhhnk>
-- German <https://tinyurl.com/2p8dzj2m>
-- Polish <https://tinyurl.com/39bev9td>
-- Russian <https://tinyurl.com/4pzzwzjk>
-- French <https://tinyurl.com/mvxn5s26>
-
+***Single Player 2.1.2.1 & Multiplayer 2.2.2.1***
+- Multilanguage: <https://tinyurl.com/e2150tmp2121-2221>
+- Manual multilanguage installation (Linux) <https://tinyurl.com/e2150tmp-man>
 ```diff
 -Lost Souls
 ```
-***Single Player***
-Version:  2.1.1
-- Multilanguage: <https://git.io/J0HOT>
-
-***Multiplayer***
-Version:  2.2.1 v2
-- English <https://tinyurl.com/2p96mjh6>
-- German <https://tinyurl.com/yc54je4n>
-- Polish <https://tinyurl.com/4dzce8zt>
-- Russian <https://tinyurl.com/5uuuu2cy>
-- French <https://tinyurl.com/2cw7wr9w>
+***Single Player 2.1.2.1 & Multiplayer 2.2.2.1***
+- Multilanguage: <https://tinyurl.com/e2150ls2121-2221>
+- Manual multilanguage installation (Linux) <https://tinyurl.com/e2150ls-man>
