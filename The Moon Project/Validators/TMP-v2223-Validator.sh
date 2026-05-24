@@ -1,4 +1,32 @@
 #!/bin/bash
+
+# Check if icoutils is installed
+if ! command -v wrestool &> /dev/null; then
+    echo "icoutils isn't installed. I need this to check the file version."
+    echo "If you hit no then you won't see the file version."
+    read -p "Can I install it? (y/n) " choice
+
+    case "$choice" in 
+        y|Y ) 
+            echo "Installing icoutils..."
+            # Adjust the package manager based on the OS (e.g., apt, dnf, pacman)
+            sudo apt-get update && sudo apt-get install -y icoutils
+            ;;
+        * ) 
+            echo "The script will proceed to perform a hash check only."
+            SKIP_VERSION_CHECK=true
+            ;;
+    esac
+fi
+
+# Logic continues here
+if [ "$SKIP_VERSION_CHECK" != true ]; then
+    echo "Performing version check..."
+    # wrestool -x -t 14 "your_file.exe"
+fi
+
+clear
+
 # --- Colors ---
 GREEN='\033[0;32m'
 RED='\033[0;31m'
@@ -121,7 +149,10 @@ fi
 # 5. Executable Validation (WSL-optimized)
 echo -e "\n[5] Executable Validation:"
 if [ -f "$TARGET_DIR/$EXE_NAME" ]; then
-    FILE_VER=$(powershell.exe -Command "(Get-Item '$EXE_NAME').VersionInfo.FileVersion" | tr -d '\r')
+    FILE_VER=$(wrestool -x --raw --type=16 --name=1 --language=0 "$TARGET_DIR/$EXE_NAME" 2>/dev/null | \
+      dd bs=1 skip=48 count=8 2>/dev/null | \
+      od -A n -t u2 | \
+      awk '{printf "%d.%d.%d.%d\n", $2, $1, $4, $3}')
     echo "  Version: ${FILE_VER:-Unknown}"
     HASH=$(sha256sum "$TARGET_DIR/$EXE_NAME" | cut -d ' ' -f 1)
     if [ "${HASH,,}" == "${EXPECTED_HASH,,}" ]; then
