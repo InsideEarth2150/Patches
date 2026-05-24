@@ -1,0 +1,137 @@
+#!/bin/bash
+# --- Colors ---
+GREEN='\033[0;32m'
+RED='\033[0;31m'
+NC='\033[0m' # No Color
+
+# --- Configuration ---
+VERSION="2223"
+EXE_NAME="TheMoonProject.exe"
+EXPECTED_HASH="2A130D074536B224F2952AB66E615F25DB1A8797522E05E2A7FC92C780F99E25"
+TARGET_DIR="$PWD"
+
+echo "======================================================="
+echo "Earth2150: The Moon Project v$VERSION - Linux Validator"
+echo "======================================================="
+echo "RUNNING FROM: $TARGET_DIR"
+
+# 1. Structural Audit
+echo -e "\n[1] Structural Audit:"
+REQUIRED_FOLDERS=("Modules" "Music" "Players" "Video" "WDFiles")
+UNWANTED_FOLDERS=("Interface" "Meshes" "Textures" "Language" "WDFiles/Language")
+
+for folder in "${REQUIRED_FOLDERS[@]}"; do
+    if [ -d "$TARGET_DIR/$folder" ]; then
+        printf "  %-22s : ${GREEN}[OK]${NC}\n" "$folder"
+    else
+        printf "  %-22s : ${RED}[MISSING]${NC}\n" "$folder"
+    fi
+done
+
+for folder in "${UNWANTED_FOLDERS[@]}"; do
+    if [ -d "$TARGET_DIR/$folder" ]; then
+        printf "  %-22s : ${RED}[UNWANTED]${NC}\n" "$folder"
+    fi
+done
+
+# 2. Official Files Audit
+echo -e "\n[2] Official Files Audit:"
+WDFILES_DIR="$TARGET_DIR/WDFiles"
+REQUIRED_WDS=("Interface.wd" "InterfaceEx.wd" "Language.wd" "Levels.wd" "Meshes.wd" "Parameters.wd" "Players.wd" "Scripts.wd" "Sounds.wd" "Terrains.wd" "TerrainsEx.wd" "Textures.wd" "Update001.wd" "Wave22kH.wd")
+
+# Check standard required files
+for file in "${REQUIRED_WDS[@]}"; do
+    if [ -f "$WDFILES_DIR/$file" ]; then
+        printf "  %-25s : ${GREEN}[PRESENT]${NC}\n" "$file"
+    else
+        printf "  %-25s : ${RED}[MISSING]${NC}\n" "$file"
+    fi
+done
+
+# Check Language pattern (e.g., Language2222TMP*.wd)
+LANG_FILE=$(find "$WDFILES_DIR" -maxdepth 1 -name "Language${VERSION}TMP*.wd" -print -quit)
+if [ -n "$LANG_FILE" ]; then
+    printf "  %-25s : ${GREEN}[PRESENT]${NC}\n" "$(basename "$LANG_FILE")"
+else
+    printf "  %-25s : ${RED}[MISSING]${NC}\n" "Language${VERSION}TMP*.wd"
+fi
+
+# Check Update pattern (e.g., Update2222.wd)
+UPDATE_FILE=$(find "$WDFILES_DIR" -maxdepth 1 -name "Update${VERSION}.wd" -print -quit)
+if [ -n "$UPDATE_FILE" ]; then
+    printf "  %-25s : ${GREEN}[PRESENT]${NC}\n" "$(basename "$UPDATE_FILE")"
+else
+    printf "  %-25s : ${RED}[MISSING]${NC}\n" "Update${VERSION}.wd"
+fi
+
+# Scan for any additional .wd files not in the required list or pattern-matched files
+echo "  --- Additional files in WDFiles ---"
+KNOWN_FILES=("${REQUIRED_WDS[@]}")
+[ -n "$LANG_FILE" ] && KNOWN_FILES+=("$(basename "$LANG_FILE")")
+[ -n "$UPDATE_FILE" ] && KNOWN_FILES+=("$(basename "$UPDATE_FILE")")
+
+while IFS= read -r -d '' found_file; do
+    fname="$(basename "$found_file")"
+    already_known=false
+    for known in "${KNOWN_FILES[@]}"; do
+        if [ "$fname" == "$known" ]; then
+            already_known=true
+            break
+        fi
+    done
+    if [ "$already_known" = false ]; then
+        printf "  %-25s : ${RED}[UNWANTED]${NC}\n" "$fname"
+    fi
+done < <(find "$WDFILES_DIR" -maxdepth 1 -name "*.wd" -print0 | sort -z)
+
+# 3. Custom WD Files Audit
+echo -e "\n[3] Custom WD Files Audit:"
+CUSTOM_DIR="$TARGET_DIR/CustomWDFiles"
+if [ -d "$CUSTOM_DIR" ]; then
+    printf "  %-25s : ${GREEN}[PRESENT]${NC}\n" "CustomWDFiles"
+    # List all .wd files inside, with tree-style prefix
+    mapfile -d '' custom_files < <(find "$CUSTOM_DIR" -maxdepth 1 -name "*.wd" -print0 | sort -z)
+    total=${#custom_files[@]}
+    for i in "${!custom_files[@]}"; do
+        fname="$(basename "${custom_files[$i]}")"
+        if [ $((i + 1)) -eq $total ]; then
+            printf "    ${GREEN}└─${NC}%s\n" "$fname"
+        else
+            printf "    ${GREEN}├─${NC}%s\n" "$fname"
+        fi
+    done
+    if [ $total -eq 0 ]; then
+        echo -e "    ${RED}No .wd files found in CustomWDFiles${NC}"
+    fi
+else
+    printf "  %-25s : ${RED}[MISSING]${NC}\n" "CustomWDFiles"
+fi
+
+# 4. Modules Audit
+echo -e "\n[4] Modules Audit:"
+MOD_DIR="$TARGET_DIR/Modules"
+if [ -d "$MOD_DIR" ]; then
+    find "$MOD_DIR" -maxdepth 1 -name "*.ieo" -print0 | while IFS= read -r -d '' file; do
+        printf "  Module: %-30s ${GREEN}[OK]${NC}\n" "$(basename "$file")"
+    done
+else
+    echo -e "  ${RED}Modules folder missing!${NC}"
+fi
+
+# 5. Executable Validation (WSL-optimized)
+echo -e "\n[5] Executable Validation:"
+if [ -f "$TARGET_DIR/$EXE_NAME" ]; then
+    FILE_VER=$(powershell.exe -Command "(Get-Item '$EXE_NAME').VersionInfo.FileVersion" | tr -d '\r')
+    echo "  Version: ${FILE_VER:-Unknown}"
+    HASH=$(sha256sum "$TARGET_DIR/$EXE_NAME" | cut -d ' ' -f 1)
+    if [ "${HASH,,}" == "${EXPECTED_HASH,,}" ]; then
+        echo -e "  Status:  ${GREEN}VERIFIED${NC}"
+    else
+        echo -e "  Status:  ${RED}INVALID${NC} (Hash: $HASH)"
+    fi
+else
+    echo -e "  Status:  ${RED}EXECUTABLE MISSING${NC}"
+fi
+
+echo -e "\n======================================================="
+read -p "Press Enter to exit"
